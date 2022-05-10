@@ -1,8 +1,5 @@
 import { useState } from "react";
 
-
-
-
 function App() {
 const [calc, setCalc] = useState("");
 const [result, setResult] = useState("")
@@ -11,26 +8,17 @@ const ops = ['/', 'x', '+', '-', '.']
 
 const updateCalc = value => {
  setCalc(calc + value);
-
-
 }
 
 const calculate = () => { //FINAL SUM
   setCalc(eval(calc).toString());
-
 }
 
 const del = () => {
   const value = calc.slice(0, -1);
-
   setCalc(value)
-  
-
 
 }
-
-
-
 
 
   return (
