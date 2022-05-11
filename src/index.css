@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: bisque;
+  background-color: rgb(39, 39, 39);
+  
 }
+
 
 .App {
 
@@ -18,8 +20,7 @@
 .calculator {
   width: 100%;
   max-width: 400px;
-  background-color: aqua;
-  border-radius: 16px;
+  border-radius: 26px;
   overflow: hidden;
   box-shadow: 0px 2px 64px;
 }
@@ -27,14 +28,15 @@
 .display {
   padding: 16px;
   text-align: right;
-  background-color: brown;
-  font-size: 24px;
+  background-color: rgb(0, 0, 0);
+  font-size: 28px;
   font-weight: 300;
+  color: white;
 }
 
 .display span {
   font-size: 14px;
-  color: rgb(144, 144, 144);
+  color: rgb(255, 255, 255);
   outline: none;
 }
 
@@ -42,7 +44,7 @@ button  {
   appearance: none;
   border: none;
   outline: none;
-  color: rgb(10, 9, 9);
+  color: #D4D4D2;
   font-size: 20px;
   padding:16px;
   cursor: pointer;
@@ -53,6 +55,7 @@ button  {
 
 button:hover {
   opacity: 0.9;
+  color: white
 }
 
 
@@ -62,7 +65,7 @@ button:hover {
 
 .operators button {
   flex: 1 1 0;
-  background-color: rgb(255, 149, 149);
+  background-color: #FF9500;
   font-weight: 700;
 }
 
@@ -74,5 +77,5 @@ button:hover {
 .numbers button {
   flex: 1 1 33.333%;
   max-width: 33.333%;
-  background-color: darkgrey;
+  
 }

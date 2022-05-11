@@ -2,9 +2,8 @@ import { useState } from "react";
 
 function App() {
 const [calc, setCalc] = useState("");
-const [result, setResult] = useState("")
 
-const ops = ['/', 'x', '+', '-', '.']
+const ops = ['/', '*', '+', '-', '.']
 
 const updateCalc = value => {
  setCalc(calc + value);
@@ -31,7 +30,7 @@ const del = () => {
        <button onClick={() => updateCalc('/')}> /</button> 
          <button onClick={() => updateCalc('+')}> +</button> 
          <button onClick={() => updateCalc('-')}> -</button> 
-         <button onClick={() => updateCalc('x')}  >x</button>
+         <button onClick={() => updateCalc('*')}  >X</button>
          <button onClick={del}>del</button>
          </div>
 
