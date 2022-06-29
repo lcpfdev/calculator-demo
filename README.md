@@ -1,3 +1,13 @@
+https://deluxe-bienenstitch-56c818.netlify.app/
+
+Simple calculator built in React. Fully functional demonstrating the use of:
+  > React hooks
+  > HTML
+  > CSS
+  > DOM manipulation
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
